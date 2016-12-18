@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="249.0" prefWidth="444.0" style="-fx-background-image: url('images1/login.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="collegemgt.FXMLforgotController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="393.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="512.0" />
+      <Button fx:id="btnexit" layoutX="370.0" layoutY="292.0" mnemonicParsing="false" onAction="#he" prefHeight="10.0" prefWidth="63.0" text="EXIT" />
+      <Label layoutX="100.0" layoutY="230.0" prefHeight="26.0" prefWidth="152.0" text="Answer">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="185.0" prefHeight="26.0" prefWidth="136.0" text="Security Question">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtans" layoutX="176.0" layoutY="230.0" prefHeight="25.0" prefWidth="257.0" promptText="Enter Your Answer" />
+      <Button fx:id="btnnext" layoutX="256.0" layoutY="292.0" mnemonicParsing="false" onAction="#he" prefHeight="10.0" prefWidth="63.0" text="NEXT" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="104.0" layoutY="40.0" prefHeight="53.0" prefWidth="304.0" text="COLLEGE INFO" textFill="#615552" textOverrun="WORD_ELLIPSIS" underline="true">
+         <font>
+            <Font name="Arial Black" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="123.0" prefHeight="30.0" prefWidth="199.0" text="Security Check :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnback" layoutX="69.0" layoutY="292.0" mnemonicParsing="false" onAction="#he" prefHeight="10.0" prefWidth="63.0" text="&lt; Back" />
+      <TextField fx:id="txtques" layoutX="178.0" layoutY="186.0" prefHeight="25.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

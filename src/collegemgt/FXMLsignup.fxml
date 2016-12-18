@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="249.0" prefWidth="444.0" style="-fx-background-image: url('images1/login.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="collegemgt.FXMLsignupController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="393.0" layoutX="-1.0" opacity="0.59" stroke="BLACK" strokeType="INSIDE" width="512.0" />
+      <Button fx:id="btnexit" layoutX="370.0" layoutY="333.0" mnemonicParsing="false" onAction="#he" prefHeight="10.0" prefWidth="63.0" text="EXIT" />
+      <Label layoutX="76.0" layoutY="208.0" prefHeight="25.0" prefWidth="100.0" text="Password">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="164.0" prefHeight="25.0" prefWidth="100.0" text="Username">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtlpass" layoutX="176.0" layoutY="208.0" prefHeight="25.0" prefWidth="257.0" promptText="Create Password" />
+      <Button fx:id="btnsignup" layoutX="256.0" layoutY="335.0" mnemonicParsing="false" onAction="#he" prefHeight="10.0" prefWidth="63.0" text="SIGN UP" />
+      <TextField fx:id="txtlname" layoutX="176.0" layoutY="164.0" prefHeight="25.0" prefWidth="257.0" promptText="Create Username" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="104.0" layoutY="40.0" prefHeight="53.0" prefWidth="304.0" text="COLLEGE INFO" textFill="#615552" textOverrun="WORD_ELLIPSIS" underline="true">
+         <font>
+            <Font name="Arial Black" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="123.0" prefHeight="30.0" prefWidth="133.0" text="Sign Up Field :-">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="250.0" prefHeight="26.0" prefWidth="133.0" text="Security Question">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="292.0" prefHeight="25.0" prefWidth="100.0" text="Answer">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtlans" layoutX="178.0" layoutY="292.0" prefHeight="25.0" prefWidth="257.0" promptText="Set Answer" />
+      <TextField fx:id="txtlques" layoutX="177.0" layoutY="251.0" prefHeight="25.0" prefWidth="257.0" promptText="Create Question" />
+   </children>
+</AnchorPane>

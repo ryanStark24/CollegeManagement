@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="393.0" prefWidth="512.0" style="-fx-background-image: url('images1/student.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="collegemgt.FXMLs_startController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="393.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="512.0" />
+      <Label layoutX="44.0" layoutY="25.0" prefHeight="46.0" prefWidth="282.0" text="STUDENT SECTION" underline="true">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnback" layoutX="349.0" layoutY="354.0" mnemonicParsing="false" onAction="#he" text="&lt; Back">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnadd" layoutX="101.0" layoutY="116.0" mnemonicParsing="false" onAction="#he" prefHeight="38.0" prefWidth="126.0" text="Add Info">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnsearch" layoutX="101.0" layoutY="178.0" mnemonicParsing="false" onAction="#he" prefHeight="38.0" prefWidth="126.0" text=" Search Info">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnupdate" layoutX="101.0" layoutY="307.0" mnemonicParsing="false" onAction="#he" prefHeight="38.0" prefWidth="126.0" text="Update Info">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btndelete" layoutX="101.0" layoutY="242.0" mnemonicParsing="false" onAction="#he" prefHeight="38.0" prefWidth="126.0" text="Delete Info">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnexit" layoutX="427.0" layoutY="354.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="66.0" text="Exit">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
